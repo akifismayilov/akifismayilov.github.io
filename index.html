@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sustainera</title>
+  <script type="module" crossorigin src="/assets/js/modulepreload-polyfill.js"></script>
+  <script type="module" crossorigin src="/assets/js/main.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/css/main.css">
+</head>
+<body >
+<nav id="navigation" aria-label="Main navigation" class=" ">
+    <div class="nav-container  ">
+        <div class="full-container flex justify-between items-center h-full">
+            <a href="/" class="logo">
+                <figure class=" w-60 sm:w-71 shrink-0 ">
+                    <img src="/assets/images/logo.svg" alt="SUSTAINERA" class="w-full h-auto"/>
+                </figure>
+            </a>
+            <div class="w-full relative ms-10 h-full hidden lg:block ">
+                <div class=" menu-bar flex justify-between items-center gap-x-12 ms-40">
+                    <ul class=" grid grid-cols-4 xl:flex  gap-10">
+                                                    <li class="">
+                                <a href="/about"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    About Us
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="/services"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    Services
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="/studies"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    Case Studies
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="/news"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    News & Blog
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="insights"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    SustaInsights
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="/academy"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    Academy
+                                </a>
+                            </li>
+                                                    <li class="">
+                                <a href="/resources"
+                                   class="t-f16-bold text-white hover:text-secondary-200 ">
+                                    Resources
+                                </a>
+                            </li>
+                                            </ul>
+                    <div class="flex gap-x-10">
+                        <a href="" class="navigation-button">Contact</a>
+                        <button id="openSearchOnNav" class="navigation-button white cursor-pointer">
+                            <i class="ic-search text-[20px] "></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="search-container   ">
+                    <div class="p-10 pb-0">
+                        <div class="w-full h-full pb-10 border-b border-b-black-20 flex items-center">
+                            <label class="w-full flex items-center gap-x-10">
+                                <i class="ic-search text-[20px] cursor-pointer animate-bounce "></i>
+                                <input type="text" class=" w-full  focus:outline-0 t-f14 placeholder:text-utility-500"
+                                       placeholder="Search"/>
+                            </label>
+                            <button id="closeSearchOnNav"
+                                    class=" flex justify-center items-center w-10 h-10 white cursor-pointer">
+                                <i class="ic-cross text-[16px] "></i>
+                            </button>
+                        </div>
+                        
+                        <div class="results mt-10 empty:pb-10 ">
+                            <ul class="flex flex-col gap-y-10 max-xl:h-[35dvh] xl:h-160 overflow-y-auto pb-5">
+                                                                    <li class="group py-5 border-y border-y-black/20 first-of-type:border-t-0 last-of-type:border-b-0">
+                                        <a href="#" class="flex gap-10 ">
+                                            <div>
+                                            <span class="w-10 h-10 flex justify-center items-center">
+                                                 <i class="ic-search text-black text-[16px] group-hover:text-brand"></i>
+                                            </span>
+                                            </div>
+                                            <div class="">
+                                                <h6 class="t-f16-medium text-black mb-5 group-hover:text-brand">Health
+                                                    and Safety Services</h6>
+                                                <p class="t-f16 text-utility-550 line-clamp-3  group-hover:text-brand">
+                                                    It’s customary to set new goals in January, but this year the
+                                                    activity
+                                                    may not be as forward-looking and ambitious as usual. Indeed,
+                                                    setting
+                                                    new targets in 2025 could involve an element of backtracking on
+                                                    previous
+                                                    goals, which may lead to slower progress toward sustainable
+                                                    development.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                    <li class="group py-5 border-y border-y-black/20 first-of-type:border-t-0 last-of-type:border-b-0">
+                                        <a href="#" class="flex gap-10 ">
+                                            <div>
+                                            <span class="w-10 h-10 flex justify-center items-center">
+                                                 <i class="ic-search text-black text-[16px] group-hover:text-brand"></i>
+                                            </span>
+                                            </div>
+                                            <div class="">
+                                                <h6 class="t-f16-medium text-black mb-5 group-hover:text-brand">Health
+                                                    and Safety Services</h6>
+                                                <p class="t-f16 text-utility-550 line-clamp-3  group-hover:text-brand">
+                                                    It’s customary to set new goals in January, but this year the
+                                                    activity
+                                                    may not be as forward-looking and ambitious as usual. Indeed,
+                                                    setting
+                                                    new targets in 2025 could involve an element of backtracking on
+                                                    previous
+                                                    goals, which may lead to slower progress toward sustainable
+                                                    development.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                    <li class="group py-5 border-y border-y-black/20 first-of-type:border-t-0 last-of-type:border-b-0">
+                                        <a href="#" class="flex gap-10 ">
+                                            <div>
+                                            <span class="w-10 h-10 flex justify-center items-center">
+                                                 <i class="ic-search text-black text-[16px] group-hover:text-brand"></i>
+                                            </span>
+                                            </div>
+                                            <div class="">
+                                                <h6 class="t-f16-medium text-black mb-5 group-hover:text-brand">Health
+                                                    and Safety Services</h6>
+                                                <p class="t-f16 text-utility-550 line-clamp-3  group-hover:text-brand">
+                                                    It’s customary to set new goals in January, but this year the
+                                                    activity
+                                                    may not be as forward-looking and ambitious as usual. Indeed,
+                                                    setting
+                                                    new targets in 2025 could involve an element of backtracking on
+                                                    previous
+                                                    goals, which may lead to slower progress toward sustainable
+                                                    development.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                    <li class="group py-5 border-y border-y-black/20 first-of-type:border-t-0 last-of-type:border-b-0">
+                                        <a href="#" class="flex gap-10 ">
+                                            <div>
+                                            <span class="w-10 h-10 flex justify-center items-center">
+                                                 <i class="ic-search text-black text-[16px] group-hover:text-brand"></i>
+                                            </span>
+                                            </div>
+                                            <div class="">
+                                                <h6 class="t-f16-medium text-black mb-5 group-hover:text-brand">Health
+                                                    and Safety Services</h6>
+                                                <p class="t-f16 text-utility-550 line-clamp-3  group-hover:text-brand">
+                                                    It’s customary to set new goals in January, but this year the
+                                                    activity
+                                                    may not be as forward-looking and ambitious as usual. Indeed,
+                                                    setting
+                                                    new targets in 2025 could involve an element of backtracking on
+                                                    previous
+                                                    goals, which may lead to slower progress toward sustainable
+                                                    development.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                    <li class="group py-5 border-y border-y-black/20 first-of-type:border-t-0 last-of-type:border-b-0">
+                                        <a href="#" class="flex gap-10 ">
+                                            <div>
+                                            <span class="w-10 h-10 flex justify-center items-center">
+                                                 <i class="ic-search text-black text-[16px] group-hover:text-brand"></i>
+                                            </span>
+                                            </div>
+                                            <div class="">
+                                                <h6 class="t-f16-medium text-black mb-5 group-hover:text-brand">Health
+                                                    and Safety Services</h6>
+                                                <p class="t-f16 text-utility-550 line-clamp-3  group-hover:text-brand">
+                                                    It’s customary to set new goals in January, but this year the
+                                                    activity
+                                                    may not be as forward-looking and ambitious as usual. Indeed,
+                                                    setting
+                                                    new targets in 2025 could involve an element of backtracking on
+                                                    previous
+                                                    goals, which may lead to slower progress toward sustainable
+                                                    development.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            
+            <button
+                    data-close-label="CLOSE"
+                    data-open-label="MENU"
+                    class="mobileMenuToggle block lg:hidden t-f10 text-white p-5  bg-black-10 rounded-[7px] cursor-pointer border border-transparent hover:border-white transition-all">
+                MENU
+            </button>
+            
+        </div>
+        
+        <div class="mobile-container hidden w-full h-[calc(100dvh-85px)] mm:h-[calc(100dvh-95px)] md:h-[calc(100dvh-105px)] overflow-y-auto mt-10 pb-6">
+            <div class="sticky top-0 mb">
+                <label class="w-full flex items-center gap-x-4 h-24 px-6 bg-white rounded-[20px] shadow-md">
+                    <i class="ic-search text-[20px] text-utility-300 cursor-pointer  "></i>
+                    <input type="text" class=" w-full  focus:outline-0 t-f14 placeholder:text-utility-300"
+                           placeholder="Search"/>
+                </label>
+            </div>
+            <div class="results mt-5 ">
+                <ul class="flex flex-col gap-y-4  pb-5">
+                                            <li class="group  ">
+                            <a href="#" class="flex gap-10 bg-white rounded-[20px] p-6  ">
+                                <div class="">
+                                    <h6 class="t-f14-medium text-black mb-5 group-hover:text-brand">Health and Safety Services</h6>
+                                    <p class="t-f14 text-utility-550 line-clamp-2  group-hover:text-brand">
+                                        It’s customary to set new goals in January, but this year the activity
+                                        may not be as forward-looking and ambitious as usual. Indeed, setting
+                                        new targets in 2025 could involve an element of backtracking on previous
+                                        goals, which may lead to slower progress toward sustainable development.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                                            <li class="group  ">
+                            <a href="#" class="flex gap-10 bg-white rounded-[20px] p-6  ">
+                                <div class="">
+                                    <h6 class="t-f14-medium text-black mb-5 group-hover:text-brand">Health and Safety Services</h6>
+                                    <p class="t-f14 text-utility-550 line-clamp-2  group-hover:text-brand">
+                                        It’s customary to set new goals in January, but this year the activity
+                                        may not be as forward-looking and ambitious as usual. Indeed, setting
+                                        new targets in 2025 could involve an element of backtracking on previous
+                                        goals, which may lead to slower progress toward sustainable development.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                                            <li class="group  ">
+                            <a href="#" class="flex gap-10 bg-white rounded-[20px] p-6  ">
+                                <div class="">
+                                    <h6 class="t-f14-medium text-black mb-5 group-hover:text-brand">Health and Safety Services</h6>
+                                    <p class="t-f14 text-utility-550 line-clamp-2  group-hover:text-brand">
+                                        It’s customary to set new goals in January, but this year the activity
+                                        may not be as forward-looking and ambitious as usual. Indeed, setting
+                                        new targets in 2025 could involve an element of backtracking on previous
+                                        goals, which may lead to slower progress toward sustainable development.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                                            <li class="group  ">
+                            <a href="#" class="flex gap-10 bg-white rounded-[20px] p-6  ">
+                                <div class="">
+                                    <h6 class="t-f14-medium text-black mb-5 group-hover:text-brand">Health and Safety Services</h6>
+                                    <p class="t-f14 text-utility-550 line-clamp-2  group-hover:text-brand">
+                                        It’s customary to set new goals in January, but this year the activity
+                                        may not be as forward-looking and ambitious as usual. Indeed, setting
+                                        new targets in 2025 could involve an element of backtracking on previous
+                                        goals, which may lead to slower progress toward sustainable development.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                                            <li class="group  ">
+                            <a href="#" class="flex gap-10 bg-white rounded-[20px] p-6  ">
+                                <div class="">
+                                    <h6 class="t-f14-medium text-black mb-5 group-hover:text-brand">Health and Safety Services</h6>
+                                    <p class="t-f14 text-utility-550 line-clamp-2  group-hover:text-brand">
+                                        It’s customary to set new goals in January, but this year the activity
+                                        may not be as forward-looking and ambitious as usual. Indeed, setting
+                                        new targets in 2025 could involve an element of backtracking on previous
+                                        goals, which may lead to slower progress toward sustainable development.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            <ul class="mt-10 flex flex-col gap-4">
+                                    <li class="">
+                        <a href="/about"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            About Us
+                        </a>
+                    </li>
+                                    <li class="">
+                        <a href="/services"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            Services
+                        </a>
+                    </li>
+                                    <li class="">
+                        <a href="/studies"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            Case Studies
+                        </a>
+                    </li>
+                                    <li class="">
+                        <a href="/news"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            News & Blog
+                        </a>
+                    </li>
+                                    <li class="">
+                        <a href="insights"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            SustaInsights
+                        </a>
+                    </li>
+                                    <li class="">
+                        <a href="/academy"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            Academy
+                        </a>
+                    </li>
+                                    <li class="">
+                        <a href="/resources"
+                           class="t-f16 w-full text-center text-black rounded-[20px] bg-white px-10 inline-block py-6 ">
+                            Resources
+                        </a>
+                    </li>
+                                <li class="">
+                    <a href="#"
+                       class="t-f16-bold w-full text-center text-white rounded-[20px] bg-secondary px-10 inline-block py-6 ">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        
+    </div>
+</nav>
+    <header class=" relative h-190 sm:h-220 md:h-250 lg:h-340">
+        <div class="hero-swiper  h-full  relative">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide ">
+                    <figure class="w-full  h-full z-0 absolute after:contain-content-[''] after:absolute after:w-full after:h-full
+                     after:left-0 after:top-0 after:bg-black-20 after:block">
+                        <img src="/assets/images/hero.jpg"
+                             class="w-full  h-full object-cover object-top"
+                             alt="banner">
+                    </figure>
+                    <div class="container relative z-10  h-full flex flex-col justify-between pt-15  pb-15">
+                        <div class="top pt-50 md:pt-60 lg:pt-100 xl:pt-75">
+                            <h1 class="text-white  w-full max-w-180 sm:max-w-230 lg:max-w-400 t-f24-bold sm:t-f32-bold lg:t-f48-bold  xl:h-84 line-clamp-3">
+                                Sustainability Trends to Watch in 2025
+                                Sustainability Trends to Watch in 2025
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <figure class="w-full  h-full z-0 absolute after:contain-content-[''] after:absolute after:w-full after:h-full
+                     after:left-0 after:top-0 after:bg-black-20 after:block">
+                        <img src="/assets/images/hero2.jpg"
+                             class="w-full  h-full object-cover object-top"
+                             alt="banner">
+                    </figure>
+                    <div class="container relative z-10  h-full flex flex-col justify-between pt-15  pb-15">
+                        <div class="top pt-50 md:pt-60 lg:pt-100 xl:pt-75">
+                            <h1 class="text-white  w-full max-w-180 sm:max-w-230 lg:max-w-400 t-f24-bold sm:t-f32-bold lg:t-f48-bold  xl:h-84 line-clamp-3">
+                                Sustainability Trends to Watch in 2026
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-tools  absolute w-full  bottom-0 z-10 ">
+                <div class="container flex justify-between items-center pb-30 ">
+                    <div class="hero-swiper-button hero-swiper-button-prev">
+                        <i class="ic-chevron-left text-xl"></i>
+                    </div>
+                    <div class="hidden h-full items-center xl:flex">
+                        <div class="hero-swiper-pagination  "></div>
+                    </div>
+
+                    <div class="hero-swiper-button hero-swiper-button-next">
+                        <i class="ic-chevron-right text-xl"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+
+    </header>
+    <main class="pb-30 w-full overflow-hidden  bg-linear-to-b from-white/100 via-black/8 via-15%  to-black/8 backdrop-blur-[35px] rounded-t-[50px]  z-10  -translate-y-22 relative inset-shadow-container">
+        <section
+                class="">
+            <div class="container">
+                <div class="section-head pt-10 lg:pt-30 flex justify-center md:justify-between gap-10 items-center">
+                    <span class="cursor-default t-f32-bold md:t-f48-bold inline-block">Services</span>
+                    <div class="hidden md:block">
+                        <a href="#" class="button-primary min-w-75">
+                            see ALL
+                            <span class="w-12 h-12 flex justify-center items-center">
+                                        <i class="ic-arrow-right -rotate-45"></i>
+                            </span>
+
+                        </a>
+                    </div>
+                </div>
+                
+
+<div class="mt-10 lg:mt-30  flex flex-wrap gap-15  justify-center ">
+        <a href="/services-inner" class="group p-23 border-2 border-utility-200 rounded-[20px] relative overflow-hidden min-h-175 lg:min-h-210 flex justify-center items-center md:max-xl:max-w-179.5  max-w-210 ">
+        <figure class="flex items-center justify-center absolute h-full w-full left-0 top-0 overflow-hidden ">
+            <img src="/assets/images/service.jpg" class="w-full h-full object-cover rounded-[10px]" alt="service-card">
+        </figure>
+        <div class="flex flex-col  items-center z-10 border p-8 md:p-15  border-white-20 bg-black/35 rounded-[40px] backdrop-blur-[8px] ">
+            <span class="t-f24-bold text-secondary mb-5">01</span>
+            <h2 class="h-24 t-f16-bold lg:h-36 lg:t-f24-bold text-white line-clamp-2 text-center">ESG Services</h2>
+            <p class="t-f14 text-white text-center overflow-hidden max-h-0 opacity-0 group-hover:max-h-100
+              transition-all ease-in-out duration-500 group-hover:opacity-100 ">
+                PortfolioPro is a life-cycle assessment solution that provides fast, accurate insights
+                into the environmental impact of product portfolios.</p>
+        </div>
+
+    </a>
+        <a href="/services-inner" class="group p-23 border-2 border-utility-200 rounded-[20px] relative overflow-hidden min-h-175 lg:min-h-210 flex justify-center items-center md:max-xl:max-w-179.5  max-w-210 ">
+        <figure class="flex items-center justify-center absolute h-full w-full left-0 top-0 overflow-hidden ">
+            <img src="/assets/images/service.jpg" class="w-full h-full object-cover rounded-[10px]" alt="service-card">
+        </figure>
+        <div class="flex flex-col  items-center z-10 border p-8 md:p-15  border-white-20 bg-black/35 rounded-[40px] backdrop-blur-[8px] ">
+            <span class="t-f24-bold text-secondary mb-5">02</span>
+            <h2 class="h-24 t-f16-bold lg:h-36 lg:t-f24-bold text-white line-clamp-2 text-center">ESG Services</h2>
+            <p class="t-f14 text-white text-center overflow-hidden max-h-0 opacity-0 group-hover:max-h-100
+              transition-all ease-in-out duration-500 group-hover:opacity-100 ">
+                PortfolioPro is a life-cycle assessment solution that provides fast, accurate insights
+                into the environmental impact of product portfolios.</p>
+        </div>
+
+    </a>
+        <a href="/services-inner" class="group p-23 border-2 border-utility-200 rounded-[20px] relative overflow-hidden min-h-175 lg:min-h-210 flex justify-center items-center md:max-xl:max-w-179.5  max-w-210 ">
+        <figure class="flex items-center justify-center absolute h-full w-full left-0 top-0 overflow-hidden ">
+            <img src="/assets/images/service.jpg" class="w-full h-full object-cover rounded-[10px]" alt="service-card">
+        </figure>
+        <div class="flex flex-col  items-center z-10 border p-8 md:p-15  border-white-20 bg-black/35 rounded-[40px] backdrop-blur-[8px] ">
+            <span class="t-f24-bold text-secondary mb-5">03</span>
+            <h2 class="h-24 t-f16-bold lg:h-36 lg:t-f24-bold text-white line-clamp-2 text-center">ESG Services</h2>
+            <p class="t-f14 text-white text-center overflow-hidden max-h-0 opacity-0 group-hover:max-h-100
+              transition-all ease-in-out duration-500 group-hover:opacity-100 ">
+                PortfolioPro is a life-cycle assessment solution that provides fast, accurate insights
+                into the environmental impact of product portfolios.</p>
+        </div>
+
+    </a>
+    
+
+</div>
+
+
+                <div class=" justify-center flex mt-10 md:hidden">
+                    <a href="#" class="button-primary min-w-75">
+                        see ALL
+                        <span class="w-12 h-12 flex justify-center items-center">
+                                        <i class="ic-arrow-right -rotate-45"></i>
+                            </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="mt-20 md:mt-30">
+            <div class="container px-0">
+                <div class="min-h-200 rounded-[40px] border border-utility-200 bg-white/90 backdrop-blur-[35px] inset-shadow-inner-container
+                 p-9.5 md:p-20 lg:p-29.5
+                ">
+                    <div class="section-head  flex justify-center md:justify-between gap-10 items-center">
+                        <span class="cursor-default t-f32-bold md:t-f48-bold inline-block">NEWS</span>
+                        <div class="hidden md:block">
+                            <a href="#" class="button-primary min-w-75">
+                                see ALL
+                                <span class="w-12 h-12 flex justify-center items-center">
+                                        <i class="ic-arrow-right -rotate-45"></i>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+<div class="mt-10 lg:mt-30  grid grid-cols-1 mm:grid-cols-2  xl:grid-cols-3 gap-10 lg:gap-15  place-items-center ">
+        <a href="" class="group flex flex-col relative   inset-shadow-news-container w-full max-w-190  rounded-[20px] overflow-hidden">
+        <figure class="relative -z-1 w-full md:h-160 overflow-hidden ">
+            <img src="/assets/images/hero2.jpg"
+                 class="w-full h-full max-md:aspect-3/2 object-cover group-hover:scale-130 transition-transform ease-in-out duration-300"
+                 alt="service-card"/>
+            <div class="absolute bottom-8 left-0 px-10 flex-wrap flex gap-4">
+                    <span class="t-f14-medium text-white rounded-[40px] border border-white-20
+                    bg-black-20 backdrop-blur-[50px] px-10 py-5 " >
+                        Case studies
+                    </span>
+            </div>
+        </figure>
+        <div class="  bg-white px-12 pt-10 pb-15 flex flex-col gap-12 ">
+            <h3 class="t-f18-semibold h-30 line-clamp-2 text-black">
+                Sdg consulting event Sdg consulting event consulting event  event consulting event
+            </h3>
+            <div class="flex  justify-between  gap-x-4 items-center ">
+
+                                <div class="flex gap-4  t-f14 text-utility-300">
+                    <time>18 Nov. 2023</time>
+                    <span> | </span>
+                    <span class="flex items-center gap-2">178
+                    <span class="w-8 h-8 flex justify-center items-center">
+                        <i class="ic-eye text-[11px]"></i>
+                    </span>
+                    </span>
+                </div>
+                                <button type="button" class="flex cursor-pointer justify-center items-center rounded-[30px] bg-secondary-200 py-6.5 px-8">
+                    <i class="ic-arrow-right h-8 w-8 flex justify-center items-center text-white group-hover:-rotate-45 transition-transform ease-in-out duration-300"></i>
+                </button>
+            </div>
+        </div>
+
+    </a>
+        <a href="" class="group flex flex-col relative   inset-shadow-news-container w-full max-w-190  rounded-[20px] overflow-hidden">
+        <figure class="relative -z-1 w-full md:h-160 overflow-hidden ">
+            <img src="/assets/images/hero2.jpg"
+                 class="w-full h-full max-md:aspect-3/2 object-cover group-hover:scale-130 transition-transform ease-in-out duration-300"
+                 alt="service-card"/>
+            <div class="absolute bottom-8 left-0 px-10 flex-wrap flex gap-4">
+                    <span class="t-f14-medium text-white rounded-[40px] border border-white-20
+                    bg-black-20 backdrop-blur-[50px] px-10 py-5 " >
+                        Case studies
+                    </span>
+            </div>
+        </figure>
+        <div class="  bg-white px-12 pt-10 pb-15 flex flex-col gap-12 ">
+            <h3 class="t-f18-semibold h-30 line-clamp-2 text-black">
+                Sdg consulting event Sdg consulting event consulting event  event consulting event
+            </h3>
+            <div class="flex  justify-between  gap-x-4 items-center ">
+
+                                <div class="flex gap-4  t-f14 text-utility-300">
+                    <time>18 Nov. 2023</time>
+                    <span> | </span>
+                    <span class="flex items-center gap-2">178
+                    <span class="w-8 h-8 flex justify-center items-center">
+                        <i class="ic-eye text-[11px]"></i>
+                    </span>
+                    </span>
+                </div>
+                                <button type="button" class="flex cursor-pointer justify-center items-center rounded-[30px] bg-secondary-200 py-6.5 px-8">
+                    <i class="ic-arrow-right h-8 w-8 flex justify-center items-center text-white group-hover:-rotate-45 transition-transform ease-in-out duration-300"></i>
+                </button>
+            </div>
+        </div>
+
+    </a>
+        <a href="" class="group flex flex-col relative   inset-shadow-news-container w-full max-w-190  rounded-[20px] overflow-hidden">
+        <figure class="relative -z-1 w-full md:h-160 overflow-hidden ">
+            <img src="/assets/images/hero2.jpg"
+                 class="w-full h-full max-md:aspect-3/2 object-cover group-hover:scale-130 transition-transform ease-in-out duration-300"
+                 alt="service-card"/>
+            <div class="absolute bottom-8 left-0 px-10 flex-wrap flex gap-4">
+                    <span class="t-f14-medium text-white rounded-[40px] border border-white-20
+                    bg-black-20 backdrop-blur-[50px] px-10 py-5 " >
+                        Case studies
+                    </span>
+            </div>
+        </figure>
+        <div class="  bg-white px-12 pt-10 pb-15 flex flex-col gap-12 ">
+            <h3 class="t-f18-semibold h-30 line-clamp-2 text-black">
+                Sdg consulting event Sdg consulting event consulting event  event consulting event
+            </h3>
+            <div class="flex  justify-between  gap-x-4 items-center ">
+
+                                <div class="flex gap-4  t-f14 text-utility-300">
+                    <time>18 Nov. 2023</time>
+                    <span> | </span>
+                    <span class="flex items-center gap-2">178
+                    <span class="w-8 h-8 flex justify-center items-center">
+                        <i class="ic-eye text-[11px]"></i>
+                    </span>
+                    </span>
+                </div>
+                                <button type="button" class="flex cursor-pointer justify-center items-center rounded-[30px] bg-secondary-200 py-6.5 px-8">
+                    <i class="ic-arrow-right h-8 w-8 flex justify-center items-center text-white group-hover:-rotate-45 transition-transform ease-in-out duration-300"></i>
+                </button>
+            </div>
+        </div>
+
+    </a>
+    
+
+</div>
+
+
+                    <div class=" justify-center flex mt-10 md:hidden">
+                        <a href="#" class="button-primary min-w-75">
+                            see ALL
+                            <span class="w-12 h-12 flex justify-center items-center">
+                                        <i class="ic-arrow-right -rotate-45"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-20 md:mt-30">
+            <div class="container px-0">
+                <div class="min-h-200 rounded-[40px] border border-utility-200 bg-white/90 backdrop-blur-[35px] inset-shadow-inner-container
+                 p-9.5 md:p-20 lg:p-29.5
+                ">
+                    <div class="section-head  flex justify-center md:justify-between gap-10 items-center">
+                        <span class="cursor-default t-f32-bold md:t-f48-bold inline-block">Case Studies</span>
+                        <div class="hidden md:block">
+                            <a href="#" class="button-primary min-w-75">
+                                see ALL
+                                <span class="w-12 h-12 flex justify-center items-center">
+                                        <i class="ic-arrow-right -rotate-45"></i>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    
+<div class="mt-10 lg:mt-30  grid grid-cols-1 mm:grid-cols-2  xl:grid-cols-3 gap-10 lg:gap-15  place-items-center ">
+        <a href="" class="group flex flex-col relative   inset-shadow-news-container w-full max-w-190  rounded-[20px] overflow-hidden">
+        <figure class="relative -z-1 w-full md:h-160 overflow-hidden ">
+            <img src="/assets/images/hero2.jpg"
+                 class="w-full h-full max-md:aspect-3/2 object-cover group-hover:scale-130 transition-transform ease-in-out duration-300"
+                 alt="service-card"/>
+            <div class="absolute bottom-8 left-0 px-10 flex-wrap flex gap-4">
+                    <span class="t-f14-medium text-white rounded-[40px] border border-white-20
+                    bg-black-20 backdrop-blur-[50px] px-10 py-5 " >
+                        Case studies
+                    </span>
+            </div>
+        </figure>
+        <div class="  bg-white px-12 pt-10 pb-15 flex flex-col gap-12 ">
+            <h3 class="t-f18-semibold h-30 line-clamp-2 text-black">
+                Sdg consulting event Sdg consulting event consulting event  event consulting event
+            </h3>
+            <div class="flex  justify-center  gap-x-4 items-center ">
+
+                                <button type="button" class="flex cursor-pointer justify-center items-center rounded-[30px] bg-secondary-200 py-6.5 px-8">
+                    <i class="ic-arrow-right h-8 w-8 flex justify-center items-center text-white group-hover:-rotate-45 transition-transform ease-in-out duration-300"></i>
+                </button>
+            </div>
+        </div>
+
+    </a>
+        <a href="" class="group flex flex-col relative   inset-shadow-news-container w-full max-w-190  rounded-[20px] overflow-hidden">
+        <figure class="relative -z-1 w-full md:h-160 overflow-hidden ">
+            <img src="/assets/images/hero2.jpg"
+                 class="w-full h-full max-md:aspect-3/2 object-cover group-hover:scale-130 transition-transform ease-in-out duration-300"
+                 alt="service-card"/>
+            <div class="absolute bottom-8 left-0 px-10 flex-wrap flex gap-4">
+                    <span class="t-f14-medium text-white rounded-[40px] border border-white-20
+                    bg-black-20 backdrop-blur-[50px] px-10 py-5 " >
+                        Case studies
+                    </span>
+            </div>
+        </figure>
+        <div class="  bg-white px-12 pt-10 pb-15 flex flex-col gap-12 ">
+            <h3 class="t-f18-semibold h-30 line-clamp-2 text-black">
+                Sdg consulting event Sdg consulting event consulting event  event consulting event
+            </h3>
+            <div class="flex  justify-center  gap-x-4 items-center ">
+
+                                <button type="button" class="flex cursor-pointer justify-center items-center rounded-[30px] bg-secondary-200 py-6.5 px-8">
+                    <i class="ic-arrow-right h-8 w-8 flex justify-center items-center text-white group-hover:-rotate-45 transition-transform ease-in-out duration-300"></i>
+                </button>
+            </div>
+        </div>
+
+    </a>
+        <a href="" class="group flex flex-col relative   inset-shadow-news-container w-full max-w-190  rounded-[20px] overflow-hidden">
+        <figure class="relative -z-1 w-full md:h-160 overflow-hidden ">
+            <img src="/assets/images/hero2.jpg"
+                 class="w-full h-full max-md:aspect-3/2 object-cover group-hover:scale-130 transition-transform ease-in-out duration-300"
+                 alt="service-card"/>
+            <div class="absolute bottom-8 left-0 px-10 flex-wrap flex gap-4">
+                    <span class="t-f14-medium text-white rounded-[40px] border border-white-20
+                    bg-black-20 backdrop-blur-[50px] px-10 py-5 " >
+                        Case studies
+                    </span>
+            </div>
+        </figure>
+        <div class="  bg-white px-12 pt-10 pb-15 flex flex-col gap-12 ">
+            <h3 class="t-f18-semibold h-30 line-clamp-2 text-black">
+                Sdg consulting event Sdg consulting event consulting event  event consulting event
+            </h3>
+            <div class="flex  justify-center  gap-x-4 items-center ">
+
+                                <button type="button" class="flex cursor-pointer justify-center items-center rounded-[30px] bg-secondary-200 py-6.5 px-8">
+                    <i class="ic-arrow-right h-8 w-8 flex justify-center items-center text-white group-hover:-rotate-45 transition-transform ease-in-out duration-300"></i>
+                </button>
+            </div>
+        </div>
+
+    </a>
+    
+
+</div>
+
+
+                    <div class=" justify-center flex mt-10 md:hidden">
+                        <a href="#" class="button-primary min-w-75">
+                            see ALL
+                            <span class="w-12 h-12 flex justify-center items-center">
+                                        <i class="ic-arrow-right -rotate-45"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+                <span class="bubble absolute -z-10 bg-brand opacity-10 w-300 h-300 block rounded-full blur-3xl top-[16%] right-[10%] "></span>
+                <span class="bubble absolute -z-10 bg-secondary opacity-10 w-300 h-300 block rounded-full blur-3xl top-[36%] right-[40%]"></span>
+                <span class="bubble absolute -z-10 bg-secondary-200 opacity-10 w-300 h-300 block rounded-full blur-3xl top-[65%] right-[60%]"></span>
+
+    </main>
+
+
+
+
+
+<footer class=" bg-black w-full -translate-y-22 absolute   overflow-hidden">
+    <div class="bg-black/80 absolute w-full h-full left-0 top-0 z-[5] backdrop-blur-[10px]"></div>
+    <figure class="absolute z-[3] left-1/2 top-[30%] mm:top-1/2 -translate-1/2 w-[70%] mm:w-220">
+        <img src="/assets/webp/sustainera.webp" class="w-full h-full" alt="SUSTAINERA">
+    </figure>
+    <div class="z-10 h-full py-15 mm:py-30 md:pb-39 relative">
+        <div class="container">
+            <div class="w-full py-6 mm:py-15 md:py-25 border-2 border-white/20 bg-black-10 overflow-hidden rounded-full backdrop-blur-[50px]">
+                <div class="footer-swiper">
+                    <div class="swiper-wrapper !ease-linear">
+
+                                                    <div class="swiper-slide text-white t-f32-bold mm:t-f64-bold xl:t-f120-bold !w-auto !whitespace-nowrap">
+                                <span class="cursor-default select-none">Transform • Thrive • Sustain •</span>
+                            </div>
+                                                    <div class="swiper-slide text-white t-f32-bold mm:t-f64-bold xl:t-f120-bold !w-auto !whitespace-nowrap">
+                                <span class="cursor-default select-none">Transform • Thrive • Sustain •</span>
+                            </div>
+                                                    <div class="swiper-slide text-white t-f32-bold mm:t-f64-bold xl:t-f120-bold !w-auto !whitespace-nowrap">
+                                <span class="cursor-default select-none">Transform • Thrive • Sustain •</span>
+                            </div>
+                                                    <div class="swiper-slide text-white t-f32-bold mm:t-f64-bold xl:t-f120-bold !w-auto !whitespace-nowrap">
+                                <span class="cursor-default select-none">Transform • Thrive • Sustain •</span>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-30 ">
+            <div class="w-full max-w-200 group mx-auto flex flex-wrap gap-x-14 gap-y-5 justify-center cursor-pointer "
+                 id="emailCopy" data-do="copy email" data-did="copied"
+                 data-text="contact@sustainera.com"
+            >
+                <div class="flex gap-x-6 text-white/75  t-f14-semibold group-hover:text-secondary-200 transition-colors duration-300 ">
+                    <span>[</span>
+                    <span>contact@sustainera.com</span>
+                    <i class="ic-letter font-light"></i>
+                    <span>]</span>
+                </div>
+                <div class="flex gap-x-6  text-white/75 t-f14-semibold group-hover:text-secondary-200 transition-colors duration-300">
+                    <span>[</span>
+                    <span id="copyLabel" >copy email</span>
+                    <i class="ic-copy font-light text-[15px]"></i>
+                    <span>]</span>
+                </div>
+            </div>
+        </div>
+        <div class=" hidden mm:block pt-30 px-5">
+            <nav aria-label="Footer navigation" class="bg-black-10 border w-full  md:max-w-[1020px] mx-auto border-white-10 backdrop-blur-[50px]
+             rounded-[20px] p-7 flex   gap-18 ">
+                <ul class="grid grid-cols-2 mm:grid-cols-3 max-mm:place-items-center md:grid-cols-4 max-lg:w-full lg:flex flex-wrap gap-18 gap-y-9 items-center">
+                                            <li class="">
+                            <a href="/about"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                About Us
+                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="/services"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                Services
+                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="/studies"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                Case Studies
+                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="/news"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                News & Blog
+                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="insights"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                SustaInsights
+                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="/academy"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                Academy
+                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="/resources"
+                               class="t-f14-medium text-white hover:text-secondary-200 ">
+                                Resources
+                            </a>
+                        </li>
+                                    </ul>
+                <ul class="flex  justify-center gap-x-6 ">
+                    <li><a href="#" class="contact-button ">Contact</a></li>
+                    <li><a href="#" class="subscribe-button ">Subscribe</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container max-mm:block hidden mt-30">
+            <div class="min-h-29 overflow-hidden  rounded-[10px]  border-1 border-white/40  bg-black-10 backdrop-blur-[50px]  p-6 flex justify-between items-center ">
+                <a href="/" class="logo">
+                    <figure class=" w-60 sm:w-71 shrink-0 ">
+                        <img src="/assets/images/logo.svg" alt="SUSTAINERA" class="w-full h-auto"/>
+                    </figure>
+                </a>
+                
+                <button
+                        data-close-label="CLOSE"
+                        data-open-label="MENU"
+                        class="mobileMenuToggle block lg:hidden t-f10 text-white p-5  bg-white-10 rounded-[7px] cursor-pointer border border-transparent hover:border-white transition-all">
+                    MENU
+                </button>
+                
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
